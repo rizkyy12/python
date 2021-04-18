@@ -1,5 +1,7 @@
-from math import *
-x = 4
-print(sqrt(x))
 
+try:
+  x = 3
+  print(x)
+except:
+  print("x not declared")
 
